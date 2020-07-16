@@ -1,0 +1,39 @@
+body{
+    background-image: url(../images/background.jpg);
+}
+
+body{
+    padding-top: 50px;
+}
+
+#mybook{
+  border: 8px solid rgb(165, 0, 0);
+  border-radius: 5px;
+}
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+.static:hover {
+    opacity:0;
+  }
+
+  .gf{
+    text-align: center;
+  }
+  .gf > img {
+    cursor: pointer;
+  }
+
+  .txt{
+      font-size: 18pt;
+      font-weight: bold;
+      font-family: sans-serif;
+  }
+
+  button{
+border: none;
+cursor: pointer;
+  }
+  
