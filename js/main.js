@@ -4,7 +4,9 @@ $( document ).ready(function() {
 
     $(function() {
         //single book
+        //$("button").draggable()
         $('#mybook').booklet({
+            manual: true,
             width:  900,
         height: 550,
             arrows: true
